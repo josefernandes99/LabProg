@@ -1,0 +1,39 @@
+window {
+	background-color: #364046;
+	border-radius: 2px;
+}
+
+grid {
+	margin-top: 7px;
+}
+
+label{
+	background-color: white;
+	border-radius: 10px;
+	font-size: 15px;
+	color: black;
+}
+
+button {
+	border-width: 3px;
+	border-color: darkgrey;
+	border-style: outset;
+	font-size: 20px;
+	background-color: grey;
+	margin: 5px;
+	padding: 3px;
+}
+
+button:hover {
+	background-image: linear-gradient(to top right, #19bd44 30%, #117a2d 70%);
+  	background-color: #3085a9;
+}
+
+checkbutton{
+	background-color: #b53333;
+	border-radius:10px;
+}
+
+checkbutton:checked {
+  	background-color: #56f9a0;
+}
